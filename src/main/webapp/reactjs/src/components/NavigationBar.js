@@ -53,7 +53,7 @@ const NavigationBar = () => {
   );
 
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="danger" variant="dark">
       <Link to={auth.isLoggedIn ? "home" : ""} className="navbar-brand">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Book_icon_1.png"

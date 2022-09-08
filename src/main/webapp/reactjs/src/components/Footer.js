@@ -10,11 +10,11 @@ const Footer = () => {
   }, [fullYear]);
 
   return (
-    <Navbar fixed="bottom" bg="dark" variant="dark">
+    <Navbar fixed="bottom" bg="light" variant="dark">
       <Container>
         <Col lg={12} className="text-center text-muted">
           <div>
-            {fullYear}-{fullYear + 1}, All Rights Reserved by Almighty Java
+            Please visit again.Thank you!!
           </div>
         </Col>
       </Container>

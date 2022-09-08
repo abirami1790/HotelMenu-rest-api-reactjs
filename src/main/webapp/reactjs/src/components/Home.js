@@ -11,7 +11,7 @@ const Home = () => {
   const auth = useSelector((state) => state.auth);
 
   return (
-    <Alert style={{ backgroundColor: "#343A40", color: "#ffffff80" }}>
+    <Alert style={{ backgroundColor: "#ffcc00", color: "#343A40" }}>
       Welcome {auth.username}
     </Alert>
   );
